@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="214px" height="214px" viewBox="0 0 214 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 30</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.475705978" y="0" width="189.524294" height="189.524294" rx="6.4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="189.524294" height="189.524294" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Landing-" transform="translate(-838.000000, -3845.000000)">
+            <g id="Group-30" transform="translate(850.000000, 3854.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-3)" stroke-width="1.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="TECHNOLOGY" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="22.4" fill="#333333">
+                    <tspan x="43.9995717" y="131.407717">TECHNOLOGY</tspan>
+                </text>
+                <g id="Page-1" transform="translate(80.985626, 56.118143)" stroke="#FF3E00" stroke-width="2.4">
+                    <path d="M19.4876043,16.0337553 C19.4876043,24.888842 17.0950117,32.0675105 14.1430192,32.0675105 C11.1910267,32.0675105 8.79843413,24.888842 8.79843413,16.0337553 C8.79843413,7.17866854 11.1910267,0 14.1430192,0 C17.0950117,0 19.4876043,7.17866854 19.4876043,16.0337553 Z" id="Stroke-1"></path>
+                    <path d="M16.8153118,11.4051664 C24.4839006,15.8331552 29.5042475,21.4939616 28.0291421,24.0504548 C26.5531458,26.606948 19.1393155,25.0899766 11.4707267,20.6619878 C3.80213783,16.2348898 -1.2182091,10.5731927 0.257787154,8.01669948 C1.73289264,5.46020628 9.14672293,6.97717768 16.8153118,11.4051664 Z" id="Stroke-3"></path>
+                    <path d="M16.8153118,20.6623441 C9.14672293,25.0903329 1.73289264,26.6073043 0.257787154,24.0508111 C-1.2182091,21.4943179 3.80213783,15.8326207 11.4707267,11.4055227 C19.1393155,6.97753399 26.5531458,5.46056259 28.0291421,8.01705579 C29.5042475,10.573549 24.4839006,16.2343554 16.8153118,20.6623441 Z" id="Stroke-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
