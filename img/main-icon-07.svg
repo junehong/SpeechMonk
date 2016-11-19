@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="218px" height="219px" viewBox="0 0 218 219" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="193px" height="193px" viewBox="0 0 193 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 33</title>
+    <title>Group 32</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+        <rect id="path-1" x="0.0449172577" y="0" width="170.571865" height="170.571865" rx="5.76"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-2" x="0.0499080641" y="0" width="189.524294" height="189.524294" rx="6.4"></rect>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
-            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="189.524294" height="189.524294" fill="white">
-            <use xlink:href="#path-2"></use>
-        </mask>
     </defs>
     <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="01.-Landing-" transform="translate(-633.000000, -4047.000000)">
-            <g id="Group-33" filter="url(#filter-1)" transform="translate(647.000000, 4056.000000)">
+        <g id="01.-Landing-" transform="translate(-635.000000, -4060.000000)">
+            <g id="Group-32" transform="translate(646.000000, 4068.000000)">
                 <g id="Rectangle-2">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                    <use stroke="#CCCCCC" mask="url(#mask-4)" stroke-width="1.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
-                <text id="EDUCATION" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="22.4" fill="#333333">
-                    <tspan x="51.7573676" y="131.407717">EDUCATION</tspan>
+                <text id="EDUCATION" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="20.16" fill="#333333">
+                    <tspan x="47.657998" y="112.766945">EDUCATION</tspan>
                 </text>
-                <g id="Page-1" transform="translate(79.189422, 52.510549)" stroke="#FF3E00" stroke-width="2.4">
-                    <path d="M15.6226333,3.67591373 L15.6226333,27.569353" id="Stroke-1"></path>
-                    <path d="M15.6226333,3.67591373 C15.6226333,1.64589037 13.976743,0 11.9467196,0 L3.67591373,0 C1.64589037,0 0,1.64589037 0,3.67591373 L0,22.0554824 C0,24.0855057 1.64589037,25.7313961 3.67591373,25.7313961 L11.9467196,25.7313961 C13.976743,25.7313961 15.6226333,27.3772865 15.6226333,29.4073098 L15.6226333,30.3262883" id="Stroke-3"></path>
-                    <path d="M15.6226333,3.67591373 C15.6226333,1.64589037 17.2685237,0 19.2985471,0 L27.569353,0 C29.5993763,0 31.2452667,1.64589037 31.2452667,3.67591373 L31.2452667,22.0554824 C31.2452667,24.0855057 29.5993763,25.7313961 27.569353,25.7313961 L19.2985471,25.7313961 C17.2685237,25.7313961 15.6226333,27.3772865 15.6226333,29.4073098 L15.6226333,30.3262883" id="Stroke-5"></path>
+                <g id="Page-1" transform="translate(71.270480, 47.259494)" stroke="#FF3E00" stroke-width="2.16">
+                    <path d="M14.06037,3.30832236 L14.06037,24.8124177" id="Stroke-1"></path>
+                    <path d="M14.06037,3.30832236 C14.06037,1.48130133 12.5790687,0 10.7520477,0 L3.30832236,0 C1.48130133,0 0,1.48130133 0,3.30832236 L0,19.8499341 C0,21.6769552 1.48130133,23.1582565 3.30832236,23.1582565 L10.7520477,23.1582565 C12.5790687,23.1582565 14.06037,24.6395578 14.06037,26.4665788 L14.06037,27.2936594" id="Stroke-3"></path>
+                    <path d="M14.06037,3.30832236 C14.06037,1.48130133 15.5416713,0 17.3686924,0 L24.8124177,0 C26.6394387,0 28.12074,1.48130133 28.12074,3.30832236 L28.12074,19.8499341 C28.12074,21.6769552 26.6394387,23.1582565 24.8124177,23.1582565 L17.3686924,23.1582565 C15.5416713,23.1582565 14.06037,24.6395578 14.06037,26.4665788 L14.06037,27.2936594" id="Stroke-5"></path>
                 </g>
             </g>
         </g>

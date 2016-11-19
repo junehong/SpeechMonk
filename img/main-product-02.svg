@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="480px" height="354px" viewBox="0 0 480 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="480px" height="280px" viewBox="0 0 480 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>Group 35</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="01.-Landing-" transform="translate(-112.000000, -2352.000000)">
-            <g id="Group-35" transform="translate(112.000000, 2352.000000)">
-                <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="480" height="354"></rect>
-                <g id="Group-22" transform="translate(48.000000, 47.000000)">
+        <g id="01.-Landing-" transform="translate(-112.000000, -2395.000000)">
+            <g id="Group-35" transform="translate(112.000000, 2395.000000)">
+                <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="480" height="280"></rect>
+                <g id="Group-22" transform="translate(48.000000, 4.000000)">
                     <g id="Group-3" transform="translate(0.000000, 33.292683)">
                         <g id="Page-1">
                             <path d="M288.625998,0.485105437 L48.0234854,0.485105437 C41.4748283,0.485105437 35.8963426,5.86977579 35.8963426,12.5157203 L35.8963426,170.757114 L300.753141,170.757114 L300.753141,12.5157203 C300.753141,5.86977579 295.174655,0.485105437 288.625998,0.485105437 L288.625998,0.485105437 Z" id="Fill-1" fill="#FEFEFE"></path>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="481px" height="355px" viewBox="0 0 481 355" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="480px" height="280px" viewBox="0 0 480 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>Group 27</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="01.-Landing-" transform="translate(-111.000000, -3199.000000)">
-            <g id="Group-27" transform="translate(111.000000, 3199.000000)">
-                <rect id="Rectangle-3" fill="#FFFFFF" x="0.5" y="0.5" width="480" height="354"></rect>
-                <g id="Group-23" transform="translate(79.000000, 48.000000)">
+        <g id="01.-Landing-" transform="translate(-111.000000, -3240.000000)">
+            <g id="Group-27" transform="translate(111.000000, 3240.000000)">
+                <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="480" height="280"></rect>
+                <g id="Group-23" transform="translate(79.000000, 7.000000)">
                     <g id="Page-1" transform="translate(18.377171, 0.000000)">
                         <polygon id="Fill-1" fill="#FEFEFE" points="94.4480866 233.608108 46.9412814 211.848 46.9412814 197.866868 94.4480866 219.626976"></polygon>
                         <polygon id="Stroke-2" stroke="#333333" stroke-width="1.6" points="94.4480866 233.608108 46.9412814 211.848 46.9412814 197.866868 94.4480866 219.626976"></polygon>
