@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="193px" height="193px" viewBox="0 0 193 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="170.571865" height="170.571865" rx="5.76"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Landing-" transform="translate(-247.000000, -3866.000000)">
+            <g id="Group-4" transform="translate(258.000000, 3874.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="LEADERSHIP" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="20.16" fill="#333333">
+                    <tspan x="44.632612" y="112.488464">LEADERSHIP</tspan>
+                </text>
+                <g id="Page-1" transform="translate(71.577072, 52.670886)" stroke="#FF3E00" stroke-width="2.16">
+                    <path d="M27.4177215,13.7088608 C27.4177215,21.2801839 21.2801839,27.4177215 13.7088608,27.4177215 C6.1375376,27.4177215 0,21.2801839 0,13.7088608 C0,6.1375376 6.1375376,0 13.7088608,0 C21.2801839,0 27.4177215,6.1375376 27.4177215,13.7088608 Z" id="Stroke-1"></path>
+                    <path d="M20.9664929,13.7088608 C20.9664929,21.2801839 17.7174929,27.4177215 13.7088608,27.4177215 C9.70022859,27.4177215 6.45122859,21.2801839 6.45122859,13.7088608 C6.45122859,6.1375376 9.70022859,0 13.7088608,0 C17.7174929,0 20.9664929,6.1375376 20.9664929,13.7088608 Z" id="Stroke-3"></path>
+                    <path d="M23.3615115,3.98363366 C21.8374088,6.40526359 17.7973269,8.06403574 13.7088608,8.06403574 C9.62039464,8.06403574 5.57950633,6.40526359 4.05620998,3.98363366" id="Stroke-5"></path>
+                    <path d="M4.05620998,23.4340879 C5.57950633,21.0124579 9.62039464,19.3536858 13.7088608,19.3536858 C17.7973269,19.3536858 21.8374088,21.0124579 23.3615115,23.4340879" id="Stroke-7"></path>
+                    <path d="M0,13.7088608 L27.4177215,13.7088608" id="Stroke-9"></path>
+                    <path d="M13.7088608,0 L13.7088608,27.4177215" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="214px" height="214px" viewBox="0 0 214 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.425797914" y="0" width="189.524294" height="189.524294" rx="6.4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="189.524294" height="189.524294" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Landing-" transform="translate(-431.000000, -4047.000000)">
+            <g id="Group-32" transform="translate(443.000000, 4056.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-3)" stroke-width="1.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="ENTREPRENEURSHIP" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="22.4" fill="#333333">
+                    <tspan x="18.2504449" y="131.407717">ENTREPRENEURSHIP</tspan>
+                </text>
+                <path d="M96.1710338,52.8612658 L96.9831224,61.7932489 L111.85654,70.7172996 L110.864979,74.6835443 L96.9831224,71.7088608 L95.9915612,79.6413502 L99.9578059,83.6075949 L97.9746835,86.5822785 L94.0084388,84.1033755 L90.0421941,86.5822785 L88.0590717,83.6075949 L92.0253165,79.6413502 L91.0337553,71.7088608 L77.1518987,74.6835443 L76.1603376,70.7172996 L91.0337553,61.7932489 L91.8458439,52.8612658 C91.9469831,51.7427848 92.885,50.8860759 94.0084388,50.8860759 L94.0084388,50.8860759 C95.1318776,50.8860759 96.068903,51.7427848 96.1710338,52.8612658 Z" id="Page-1" stroke="#FF3E00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

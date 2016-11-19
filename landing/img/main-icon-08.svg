@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="193px" height="193px" viewBox="0 0 193 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.42813538" y="0" width="170.571865" height="170.571865" rx="5.76"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Landing-" transform="translate(-829.000000, -4060.000000)">
+            <g id="Group-31" transform="translate(840.000000, 4068.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="HUMANITY" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="20.16" fill="#333333">
+                    <tspan x="50.2150443" y="112.766945">HUMANITY</tspan>
+                </text>
+                <path d="M85.0632911,73.5949367 C89.401519,71.016359 99.4177215,65.797809 99.4177215,57.0655926 C99.4177215,52.7207365 95.8450633,49.1944764 91.443038,49.1944764 C88.8353165,49.1944764 86.5146835,50.4381128 85.0632911,52.350794 C83.6118987,50.4381128 81.2912658,49.1944764 78.6835443,49.1944764 C74.281519,49.1944764 70.7088608,52.7207365 70.7088608,57.0655926 C70.7088608,65.797809 80.7250633,71.016359 85.0632911,73.5949367 Z" id="Page-1" stroke="#FF3E00" stroke-width="2.16" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

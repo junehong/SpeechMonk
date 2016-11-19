@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="214px" height="214px" viewBox="0 0 214 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.0499080641" y="0" width="189.524294" height="189.524294" rx="6.4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="189.524294" height="189.524294" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Landing-" transform="translate(-635.000000, -3845.000000)">
+            <g id="Group-29" transform="translate(647.000000, 3854.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-3)" stroke-width="1.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="INNOVATION" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="22.4" fill="#333333">
+                    <tspan x="48.1518988" y="131.407717">INNOVATION</tspan>
+                </text>
+                <g id="Page-1" transform="translate(81.641470, 52.911392)" stroke="#FF3E00" stroke-width="2.4" stroke-linejoin="round">
+                    <path d="M17.3541822,25.2828742 L17.3541822,32.5390916 C17.3541822,34.936138 15.412683,36.8776371 13.0156366,36.8776371 C10.6185902,36.8776371 8.67709109,34.936138 8.67709109,32.5390916 L8.67709109,25.2828742 C3.62268553,23.5040705 0,18.6882849 0,13.0156366 C0,5.82449739 5.82449739,0 13.0156366,0 C20.2067759,0 26.0312733,5.82449739 26.0312733,13.0156366 C26.0312733,18.6882849 22.4085877,23.5040705 17.3541822,25.2828742 Z" id="Stroke-1"></path>
+                    <path d="M12.7942823,27.1159097 L12.7942823,19.523455" id="Stroke-3"></path>
+                    <path d="M8.67709109,27.8463791 L16.2695458,27.8463791" id="Stroke-5"></path>
+                    <path d="M8.67709109,32.3620081 L16.2695458,32.3620081" id="Stroke-7"></path>
+                    <path d="M9.76172748,16.2695458 L13.0156366,19.523455" id="Stroke-9"></path>
+                    <path d="M16.2695458,16.2695458 L13.0156366,19.523455" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

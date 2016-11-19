@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="214px" height="214px" viewBox="0 0 214 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="189.524294" height="189.524294" rx="6.4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="189.524294" height="189.524294" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="LANDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Landing-" transform="translate(-228.000000, -3845.000000)">
+            <g id="Group-4" transform="translate(240.000000, 3854.000000)">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-3)" stroke-width="1.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="LEADERSHIP" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="22.4" fill="#333333">
+                    <tspan x="48.3012095" y="132.209404">LEADERSHIP</tspan>
+                </text>
+                <g id="Page-1" transform="translate(79.530080, 58.523207)" stroke="#FF3E00" stroke-width="2.4">
+                    <path d="M30.464135,15.2320675 C30.464135,23.6446488 23.6446488,30.464135 15.2320675,30.464135 C6.81948622,30.464135 0,23.6446488 0,15.2320675 C0,6.81948622 6.81948622,0 15.2320675,0 C23.6446488,0 30.464135,6.81948622 30.464135,15.2320675 Z" id="Stroke-1"></path>
+                    <path d="M23.2961033,15.2320675 C23.2961033,23.6446488 19.6861033,30.464135 15.2320675,30.464135 C10.7780318,30.464135 7.16803177,23.6446488 7.16803177,15.2320675 C7.16803177,6.81948622 10.7780318,0 15.2320675,0 C19.6861033,0 23.2961033,6.81948622 23.2961033,15.2320675 Z" id="Stroke-3"></path>
+                    <path d="M25.957235,4.42625962 C24.2637875,7.11695954 19.7748076,8.96003971 15.2320675,8.96003971 C10.6893274,8.96003971 6.19945148,7.11695954 4.50689998,4.42625962" id="Stroke-5"></path>
+                    <path d="M4.50689998,26.0378754 C6.19945148,23.3471755 10.6893274,21.5040953 15.2320675,21.5040953 C19.7748076,21.5040953 24.2637875,23.3471755 25.957235,26.0378754" id="Stroke-7"></path>
+                    <path d="M0,15.2320675 L30.464135,15.2320675" id="Stroke-9"></path>
+                    <path d="M15.2320675,0 L15.2320675,30.464135" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
