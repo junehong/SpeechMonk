@@ -49,6 +49,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding:20px 50px;
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Dark theme */
 
@@ -290,6 +306,13 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -338,12 +361,21 @@ button{
 .text-center .a-btn{
 	padding: 6px 0;
 }
+.a-block{
+	width:100%;
+	text-align: left;
+}
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
 	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
 	padding: 3px 20px;
 }
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-sm{
+	font-size:18px!important;
+}
 
 /*  Rounded Image */
 .img-rd{
@@ -371,6 +403,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -412,11 +460,10 @@ iframe{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Roboto";
-	text-shadow:0px 0px 0px #000000;
-	color:#333333!important;
-	font-weight:300;
+	font-weight:normal;
 	text-transform:none;
 	text-decoration:none;
+	color:#333333!important;
 }
 .container{
 	max-width:800px;
@@ -434,18 +481,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover{
 	text-decoration:none;
 	text-transform:none;
 	text-align:left;
+	color:#000000!important;
+	font-weight:100;
+	line-height:120%;
 }
 .h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	color:rgba(0,0,0,0.0)!important;
 }
 h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
-	color:rgba(255,62,0,0.0)!important;
+	color:#424242!important;
 }
 .paragraph{
 	font-size:16px;
 	font-family:"Roboto";
-	font-weight:100;
-	color:rgba(121,121,121,0.0)!important;
+	font-weight:normal;
+	color:#333333!important;
 }
 .paragraph:hover{
 }
@@ -496,6 +546,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 .tc-coquelicot{
 	color:#FF3E00!important;
+}
+.tc-dark-jungle-green{
+	color:#222222!important;
+}
+.tc-gainsboro{
+	color:#DDDDDD!important;
+}
+.tc-canary-yellow{
+	color:#FFEE00!important;
 }
 .tc-white{
 	color:#ffffff!important;
