@@ -50,13 +50,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
-/* Background Effects */
-
-.b-parallax{
-	background-attachment:fixed;
-}
-
-
 /* Dark theme */
 
 .d-bloc{
@@ -141,6 +134,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .voffset{
 	margin-top:30px;
 }
+.voffset-md{
+	margin-top:50px;
+}
 
 /* Column No Gutters */
 
@@ -151,6 +147,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .row.row-no-gutters > [class^="col-"],.row.row-no-gutters > [class*=" col-"] {
 	padding-right: 0;
 	padding-left: 0;
+}
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
 }
 
 /* Bloc text custom styling */
@@ -274,6 +276,16 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
+}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -318,8 +330,13 @@ button{
 	outline: none!important;
 }
 
-.btn-rd{
-	border-radius: 40px;
+.a-btn{
+	padding: 6px 10px 6px 0;
+	line-height: 1.42857143;
+	display:inline-block;
+}
+.text-center .a-btn{
+	padding: 6px 0;
 }
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
@@ -327,12 +344,17 @@ button{
 	padding: 3px 20px;
 }
 
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
 
+/*  Rounded Image */
+.img-rd{
+	border-radius:6px;
+}
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 
 
@@ -392,7 +414,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Roboto";
 	text-shadow:0px 0px 0px #000000;
 	color:#333333!important;
-	font-weight:100;
+	font-weight:300;
 	text-transform:none;
 	text-decoration:none;
 }
@@ -425,6 +447,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	font-weight:100;
 	color:rgba(121,121,121,0.0)!important;
 }
+.paragraph:hover{
+}
+.paragraph:active{
+}
 .mountain-hero-text{
 	font-family:"Josefin Sans";
 	font-size:60px;
@@ -438,6 +464,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .blocs-hero-btn-dwn{
 	background-color:rgba(255,255,255,0.2);
 }
+.stat-bloc-text{
+	font-size:44px;
+	text-align:center;
+	font-weight:bold;
+}
+.stat-bloc-sub-text{
+	font-size:16px;
+	text-align:center;
+	text-transform:uppercase;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -447,11 +483,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-white-smoke{
+	background-color:#F5F5F5;
+}
 .bgc-dark-jungle-green{
 	background-color:#222222;
 }
 /* Text colour styles */
 
+.tc-dim-gray{
+	color:#666666!important;
+}
+.tc-coquelicot{
+	color:#FF3E00!important;
+}
 .tc-white{
 	color:#ffffff!important;
 }
@@ -472,6 +517,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 .btn-coquelicot:hover{
 	background:#cc3200;
 	color:#FFFFFF!important;
+}
+/* Link colour styles */
+
+.ltc-coquelicot{
+	color:#FF3E00!important;
+}
+.ltc-coquelicot:hover{
+	color:#cc3200!important;
 }
 
 /* Bloc image backgrounds */

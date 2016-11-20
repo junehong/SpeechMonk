@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="15px" viewBox="0 0 24 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="UI-01" transform="translate(-235.000000, -463.000000)" stroke="#333333" stroke-width="1.5">
+            <g id="Group-5" transform="translate(127.000000, 260.000000)">
+                <g id="Group-4">
+                    <g id="Page-1" transform="translate(120.000000, 210.500000) scale(-1, 1) rotate(90.000000) translate(-120.000000, -210.500000) translate(113.000000, 200.000000)">
+                        <path d="M7,0 L7,20.16" id="Stroke-1"></path>
+                        <path d="M0.549966667,14.220276 L6.59952222,20.753796 C6.90363333,21.082236 7.39596667,21.082236 7.6993,20.753796 L13.7496333,14.220276" id="Stroke-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
