@@ -150,8 +150,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .voffset{
 	margin-top:30px;
 }
-.voffset-md{
-	margin-top:50px;
+.voffset-lg{
+	margin-top:80px;
 }
 
 /* Column No Gutters */
@@ -169,6 +169,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .b-divider{
 	border-top:1px solid rgba(0,0,0,.1);
 	border-bottom:1px solid rgba(0,0,0,.1);
+}
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
 }
 
 /* Bloc text custom styling */
@@ -292,16 +296,6 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
-/* = Sticky Nav
--------------------------------------------------------------- */
-
-.sticky-nav.sticky{
-	position:fixed;
-	top:0;
-	z-index:1000;
-	box-shadow:0 1px 2px rgba(0,0,0,.3);
-	 transition: all .2s ease-out;
-}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -353,17 +347,8 @@ button{
 	outline: none!important;
 }
 
-.a-btn{
-	padding: 6px 10px 6px 0;
-	line-height: 1.42857143;
-	display:inline-block;
-}
-.text-center .a-btn{
-	padding: 6px 0;
-}
-.a-block{
-	width:100%;
-	text-align: left;
+.btn-rd{
+	border-radius: 40px;
 }
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
@@ -403,22 +388,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -464,6 +433,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:none;
 	text-decoration:none;
 	color:#333333!important;
+	background-position:left center;
 }
 .container{
 	max-width:800px;
@@ -477,12 +447,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover{
 	color:rgba(0,0,0,0.0)!important;
 }
+.h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover:active{
+}
+.h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover:hover{
+}
 h1,h2,h3,h4,h5,h6,p,label,.btn,a:hover{
 	text-decoration:none;
 	text-transform:none;
 	text-align:left;
 	color:#000000!important;
-	font-weight:100;
+	font-weight:normal;
 	line-height:120%;
 }
 .h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
@@ -498,8 +472,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	color:#333333!important;
 }
 .paragraph:hover{
+	font-size:16px;
 }
 .paragraph:active{
+	font-size:16px;
 }
 .mountain-hero-text{
 	font-family:"Josefin Sans";
@@ -524,6 +500,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	text-align:center;
 	text-transform:uppercase;
 }
+.score-number{
+	font-size:70px;
+	color:#424242!important;
+	font-family:"Roboto";
+	font-weight:200;
+}
+.score-words{
+	font-size:16px;
+	line-height:40px;
+	color:#424242!important;
+}
+.statement-bloc-text{
+	line-height:38px;
+	font-style:italic;
+	font-size:28px;
+	text-align:center;
+	font-weight:lighter;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -541,20 +535,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 /* Text colour styles */
 
-.tc-dim-gray{
-	color:#666666!important;
-}
 .tc-coquelicot{
 	color:#FF3E00!important;
 }
-.tc-dark-jungle-green{
-	color:#222222!important;
+.tc-dim-gray{
+	color:#666666!important;
 }
 .tc-gainsboro{
 	color:#DDDDDD!important;
-}
-.tc-canary-yellow{
-	color:#FFEE00!important;
 }
 .tc-white{
 	color:#ffffff!important;
@@ -766,3 +754,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	   height: 320px;
     }
 }
+@media (max-width: 420px){
+	.blocs-team-avatar{
+	max-width:280px;
+}
+.blocs-team-header{
+	text-align:center;
+}
+.blocs-team-details{
+	text-align:center;
+}
+.blocs-team-first-social{
+	margin-left:41%;
+}
+ }
+
