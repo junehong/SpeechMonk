@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="27px" height="30px" viewBox="0 0 27 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>Page 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="UI-03" transform="translate(-339.000000, -534.000000)" stroke="#D2D2D5" stroke-width="2">
-            <g id="Page-1" transform="translate(340.000000, 535.000000)">
-                <path d="M13.0130981,4.50793548 C20.0644943,4.50793548 25.7810604,10.1464839 25.7810604,17.1016452 C25.7810604,24.0568065 20.0644943,29.694871 13.0130981,29.694871 C5.96170189,29.694871 0.245135849,24.0568065 0.245135849,17.1016452" id="Stroke-1"></path>
-                <polyline id="Stroke-3" points="17.3483774 10.8547258 13.0132453 4.39746774 19.5598491 0.1215"></polyline>
+        <g id="UI-02" transform="translate(-299.000000, -212.000000)" stroke="#D2D2D5" stroke-width="2">
+            <g id="Page-1" transform="translate(300.000000, 213.000000)">
+                <path d="M12.1455582,4.20740645 C18.7268614,4.20740645 24.062323,9.47005161 24.062323,15.9615355 C24.062323,22.4530194 18.7268614,27.7152129 12.1455582,27.7152129 C5.56425509,27.7152129 0.228793459,22.4530194 0.228793459,15.9615355" id="Stroke-1"></path>
+                <polyline id="Stroke-3" points="16.1918189 10.1310774 12.1456956 4.10430323 18.2558591 0.1134"></polyline>
             </g>
         </g>
     </g>

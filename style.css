@@ -361,6 +361,9 @@ button{
 .icon-sm{
 	font-size:18px!important;
 }
+.icon-md{
+	font-size:30px!important;
+}
 
 
 
@@ -506,10 +509,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	font-family:"Roboto";
 	font-weight:200;
 }
-.score-words{
+.score-style{
 	font-size:16px;
 	line-height:40px;
-	color:#424242!important;
+	color:#333333!important;
 }
 .statement-bloc-text{
 	line-height:38px;
@@ -517,6 +520,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 	font-size:28px;
 	text-align:center;
 	font-weight:lighter;
+}
+.keyword-style{
+	font-size:16px;
+	line-height:30px;
+}
+.translation-style{
+}
+.translation{
+	color:rgba(0,0,0,0.0)!important;
+}
+.light-grey{
+	color:rgba(1,1,1,0.2)!important;
+	border-color:rgba(0,0,0,0.0);
+	background-color:rgba(0,0,0,0.0);
 }
 
 /* = Colour
@@ -540,9 +557,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 .tc-dim-gray{
 	color:#666666!important;
-}
-.tc-gainsboro{
-	color:#DDDDDD!important;
 }
 .tc-white{
 	color:#ffffff!important;
@@ -572,6 +586,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a:active{
 }
 .ltc-coquelicot:hover{
 	color:#cc3200!important;
+}
+/* Icon colour styles */
+
+.icon-coquelicot{
+	color:#FF3E00!important;
+	border-color:#FF3E00!important;
+}
+.icon-light-gray{
+	color:#D2D2D4!important;
+	border-color:#D2D2D4!important;
+}
+.icon-dim-gray{
+	color:#666666!important;
+	border-color:#666666!important;
 }
 
 /* Bloc image backgrounds */

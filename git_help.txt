@@ -1,7 +1,0 @@
- 1. edit some blocs files
-scml-june:landing june$ 2. git add -A
-scml-june:landing june$ 3. git commit -m "I made some changes"
-scml-june:landing june$ 4. git push
-scml-june:landing june$ 5. ssh junehong@speechmonk.io
-scml-june:landing june$ 6. cd speechmonk.io
-scml-june:landing june$ 7. git pull
